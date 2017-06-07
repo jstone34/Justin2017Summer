@@ -12,7 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_alignParentTop="true"
-        android:background="@color/red">
+        android:background="@color/red"
+        android:id="@+id/relativeLayout">
 
             <TextView
                 android:layout_width="match_parent"
@@ -47,7 +48,8 @@
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_alignParentBottom="true"
-        android:background="@color/blue">
+        android:background="@color/blue"
+        android:id="@+id/linearLayout">
 
         <TextView
             android:id="@+id/activity_tool_demo"
@@ -85,7 +87,8 @@
     android:layout_height="match_parent"
 
 
-    ></LinearLayout>
+    android:layout_below="@+id/relativeLayout"
+    android:layout_above="@+id/linearLayout"></LinearLayout>
 
 
 </RelativeLayout>

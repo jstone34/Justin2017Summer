@@ -4,15 +4,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.justin.justin2017summer.fragment.DemoFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_marginTop="200dp"
+    <ListView
+        android:id="@+id/fragment_demo_lv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello Demo Fragment"
-        android:textAlignment="center"
-        android:textSize="35dp"
-        android:textColor="@color/darkblue"/>
+        android:layout_height="match_parent"></ListView>
 
 
 
