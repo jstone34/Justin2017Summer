@@ -6,7 +6,7 @@ import android.widget.Toast;
 
 import butterknife.ButterKnife;
 
-public class ActivityA extends AppCompatActivity {
+public class ActivityA extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

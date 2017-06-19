@@ -10,7 +10,7 @@ import com.example.justin.justin2017summer.adapter.ScalePagerAdapter;
 
 import java.util.ArrayList;
 
-public class ActivityC extends AppCompatActivity {
+public class ActivityC extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

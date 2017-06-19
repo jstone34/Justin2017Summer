@@ -3,7 +3,7 @@ package com.example.justin.justin2017summer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ActivityD extends AppCompatActivity {
+public class ActivityD extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
