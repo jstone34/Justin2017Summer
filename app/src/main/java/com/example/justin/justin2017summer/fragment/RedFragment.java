@@ -56,7 +56,7 @@ public class RedFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-        UtilLog.d("Fragment","onCreate");
+        UtilLog.d("Fragment","RedOnCreate");
     }
 
     @Override
@@ -64,6 +64,36 @@ public class RedFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_red, container, false);
+
+    }
+    @Override
+    public void onStop() {
+        super.onStop();
+        UtilLog.d("Fragment","RedOnStop");
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        UtilLog.d("Fragment","RedOnPause");
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        UtilLog.d("Fragment","RedOnResume");
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        UtilLog.d("Fragment","RedOnStart");
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        UtilLog.d("Fragment","RedOnDestroy");
     }
 
 }

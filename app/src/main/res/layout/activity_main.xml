@@ -11,9 +11,10 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="65dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/relativeLayout"
         android:layout_alignParentTop="true"
-        android:background="@color/red"
-        android:id="@+id/relativeLayout">
+        android:layout_alignParentStart="true">
 
             <TextView
                 android:layout_width="match_parent"

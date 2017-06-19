@@ -14,9 +14,11 @@ import java.util.ArrayList;
 import com.example.justin.justin2017summer.ActivityA;
 import com.example.justin.justin2017summer.ActivityC;
 import com.example.justin.justin2017summer.AdvanceListViewActivity;
+import com.example.justin.justin2017summer.AdvanceViewPagerActivity;
 import com.example.justin.justin2017summer.NinePatchActivity;
 import com.example.justin.justin2017summer.NotificationActivity;
 import com.example.justin.justin2017summer.R;
+import com.example.justin.justin2017summer.ScaleTypeActivity;
 import com.example.justin.justin2017summer.ViewPagerActivity;
 import com.example.justin.justin2017summer.adapter.ListNormalAdapter;
 
@@ -44,7 +46,7 @@ public class DemoFragment extends Fragment {
         contentList.add("9Patch");
         contentList.add("Notification");
         contentList.add("Advance List View");
-        contentList.add("B");
+        contentList.add("Advance View Pager");
         contentList.add("Launch Mode");
         contentList.add("E");
         contentList.add("F");
@@ -89,7 +91,7 @@ public class DemoFragment extends Fragment {
                         startActivity(intent);
                         break;
                     case 1:
-                        Intent intent1 = new Intent(getActivity(), ActivityC.ScaleTypeActivity.class);
+                        Intent intent1 = new Intent(getActivity(), ScaleTypeActivity.class);
                         startActivity(intent1);
                         break;
                     case 2:
@@ -103,6 +105,10 @@ public class DemoFragment extends Fragment {
                     case 4:
                         Intent intent4 = new Intent(getActivity(), AdvanceListViewActivity.class);
                         startActivity(intent4);
+                        break;
+                    case 5:
+                        Intent intent5 = new Intent(getActivity(), AdvanceViewPagerActivity.class);
+                        startActivity(intent5);
                         break;
                     case 6:
                         Intent intent6 = new Intent(getActivity(), ActivityA.class);

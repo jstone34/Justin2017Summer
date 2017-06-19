@@ -4,6 +4,7 @@ import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         private TextView tv_demo;
         private TextView tv_work;
+        private Button submit_button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         tv_demo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tv_work.setTextColor(Color.BLACK);
-                tv_demo.setTextColor(Color.RED);
+                tv_work.setTextColor(Color.BLUE);
+                tv_demo.setTextColor(Color.WHITE);
                 getSupportFragmentManager().beginTransaction().replace(R.id.activity_main_fragment,demoFragment).commit();
             }
         });
@@ -46,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
         tv_work.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tv_work.setTextColor(Color.RED);
-                tv_demo.setTextColor(Color.BLACK);
+                tv_work.setTextColor(Color.WHITE);
+                tv_demo.setTextColor(Color.BLUE);
                 getSupportFragmentManager().beginTransaction().replace(R.id.activity_main_fragment,workFragment).commit();
             }
         });
@@ -56,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
     public void login(View v){
         Toast.makeText(MainActivity.this, "You Clicked Login", Toast.LENGTH_SHORT).show();
     }
+    public void submit(View v){
+        Toast.makeText(MainActivity.this, "You Clicked Submit", Toast.LENGTH_SHORT).show();
+    }
+
 
     private void initialView() {
         tv_demo = (TextView)findViewById(R.id.activity_tool_demo);

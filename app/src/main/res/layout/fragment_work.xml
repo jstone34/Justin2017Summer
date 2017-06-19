@@ -4,14 +4,105 @@
     android:layout_height="match_parent"
     tools:context="com.example.justin.justin2017summer.fragment.WorkFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_marginTop="200dp"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello Work Fragment"
-        android:textAlignment="center"
-        android:textSize="35dp"
-        android:textColor="@color/darkblue"/>
+        android:orientation="vertical">
+
+        //Main Layout for top banner
+        <RelativeLayout
+            android:id="@+id/topBanner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="@android:color/holo_blue_light">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Some text will go here as in the demo"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+        //Between
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/activity_main_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="320dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp">
+                 <Button
+                    android:text="Quiz1"
+                    android:textColor="@color/white"
+                    android:layout_width="110dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentStart="true" />
+                <Button
+                    android:text="Quiz2"
+                    android:textColor="@color/white"
+                    android:layout_width="110dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentStart="true" />
+                <Button
+                    android:text="Quiz3"
+                    android:textColor="@color/white"
+                    android:layout_width="110dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentStart="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:onClick="submit"
+                    android:background="@drawable/bt_bg"
+                android:text="submit"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentStart="true" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        //Main Layout for bottom banner
+        <RelativeLayout
+            android:id="@+id/bottomBanner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/holo_blue_light"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="You can do it!"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
 
 </FrameLayout>

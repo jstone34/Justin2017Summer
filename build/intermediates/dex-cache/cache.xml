@@ -7,8 +7,26 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="5c0148c3ed0b9a28d7075f3d70b3550daefab692">
+        sha1="d6016a2f3b6a16dba6aa432371d0f6b08f577b73">
         <dex dex="C:\Users\justj\AndroidStudioProjects\Justin2017Summer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e4e841b3992f3d31b76c05f7d85df85c85b2fa06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\justj\.android\build-cache\f94165d055c4668e359708946e06c042ecfef935\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\justj\AndroidStudioProjects\Justin2017Summer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1afad0604ce7a09325ef673dfbc4c2849a579bac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\justj\.android\build-cache\9395bc23cdf7b50ac666e8a812196a184d3eadd0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\justj\AndroidStudioProjects\Justin2017Summer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_893c086728273c06448f7003516720e0cfd1d27a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +36,15 @@
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\justj\AndroidStudioProjects\Justin2017Summer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bc1626c592f62e36ea29818267276f26e20b2ed5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\justj\.android\build-cache\ff9d9edc6fd8f7504149d3e6472dccbeb1453d70\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\justj\AndroidStudioProjects\Justin2017Summer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_151e7160119e61f0a81ba13c90b16039c08d1ccf\classes.dex" />
     </item>
 
 </items>

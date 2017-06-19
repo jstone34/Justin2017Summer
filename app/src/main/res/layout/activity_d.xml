@@ -9,5 +9,61 @@
     android:background="@android:color/background_light"
     tools:context="com.example.justin.justin2017summer.ActivityA">
 
+    //Shows the letter (xml files)
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="D"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="400dp"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+
+    //buttons
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="ActivityA"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:text="A"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:onClick="ActivityB"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:text="B"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:onClick="ActivityC"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:text="C"
+            android:textColor="@color/white"/>
+        <Button
+            android:onClick="ActivityD"
+            android:layout_width="87dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:text="D"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>
