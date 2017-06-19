@@ -18,9 +18,15 @@
         </activity>
         <activity android:name=".ViewPagerActivity" />
         <activity
-            android:name=".LaunchModeActivity"
+            android:name=".ActivityA"
             android:launchMode="singleInstance" />
-        <activity android:name=".fragment.ScaleTypeActivity"></activity>
+        <activity android:name=".ActivityC$ScaleTypeActivity" />
+        <activity android:name=".ActivityB" />
+        <activity android:name=".ActivityC" />
+        <activity android:name=".ActivityD" />
+        <activity android:name=".NinePatchActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".AdvanceListViewActivity"></activity>
     </application>
 
 </manifest>
