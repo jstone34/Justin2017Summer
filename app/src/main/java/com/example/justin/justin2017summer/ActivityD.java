@@ -1,5 +1,6 @@
 package com.example.justin.justin2017summer;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,8 +16,14 @@ public class ActivityD extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_d);
-        Toast.makeText(this, "Activity D",Toast.LENGTH_SHORT).show();
+        shortToast("OnCreate");
     }
+
+    public void onNewIntent(Intent intent){
+        super.onNewIntent(intent);
+        shortToast("OnNewIntent");
+    }
+
     public void ActivityA(View v){
         goToActivity(ActivityA.class);
     }

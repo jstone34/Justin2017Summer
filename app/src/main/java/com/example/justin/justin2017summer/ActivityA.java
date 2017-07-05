@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.justin.justin2017summer.audio.BaseBean;
+
 import butterknife.ButterKnife;
 
 public class ActivityA extends BaseActivity {
@@ -14,8 +16,25 @@ public class ActivityA extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a);
-        Toast.makeText(this, "Activity A",Toast.LENGTH_SHORT).show();
+        shortToast("OnCreate");
         ButterKnife.bind(this);
+        Intent intent = getIntent();
+        Bundle bundle = intent.getBundleExtra("Bundle");
+        BaseBean bean = (BaseBean) bundle.getSerializable("Object");
+        String bs = bundle.getString("StringBundle");
+        int bi = bundle.getInt("IntegerBundle",0);
+        shortToast(bs);
+        shortToast(bi+"");
+        shortToast(bean.getName());
+      /*  String s = intent.getStringExtra("StringInfo");
+        int i = intent.getIntExtra("IntegerInfo", 0);
+        shortToast(s);
+        shortToast(i+"");
+        shortToast("Integer is: "+i);*/
+    }
+    public void onNewIntent(Intent intent){
+        super.onNewIntent(intent);
+        shortToast("OnNewIntent");
     }
 
     public void ActivityA(View v){

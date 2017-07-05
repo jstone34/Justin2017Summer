@@ -81,15 +81,15 @@
             android:layout_gravity="center_vertical"/>
 </LinearLayout>
 
-<LinearLayout
-    android:orientation="vertical"
-    android:id="@+id/activity_main_fragment"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/activity_main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
 
 
-    android:layout_below="@+id/relativeLayout"
-    android:layout_above="@+id/linearLayout"></LinearLayout>
+        android:layout_below="@+id/relativeLayout"
+        android:layout_above="@+id/linearLayout"></LinearLayout>
 
 
 </RelativeLayout>

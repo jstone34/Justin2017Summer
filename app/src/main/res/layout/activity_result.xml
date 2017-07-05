@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.justin.justin2017summer.ResultActivity">
+    <Button
+        android:id="@+id/activity_result_bt1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:text="To Result 1"/>
+    <Button
+        android:id="@+id/activity_result_bt2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:text="To Result 2"/>
+
+</LinearLayout>

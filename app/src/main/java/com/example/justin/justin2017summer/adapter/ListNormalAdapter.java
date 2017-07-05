@@ -30,7 +30,7 @@ public class ListNormalAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 10;
+        return list.size();
     }
 
     @Override

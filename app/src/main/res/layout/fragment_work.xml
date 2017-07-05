@@ -1,20 +1,17 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.justin.justin2017summer.fragment.WorkFragment">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
-        //Main Layout for top banner
+        //Top Banner
         <RelativeLayout
             android:id="@+id/topBanner"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:orientation="vertical"
             android:background="@android:color/holo_blue_light">
             <TextView
                 android:layout_width="match_parent"
@@ -27,13 +24,14 @@
         </RelativeLayout>
 
 
-        //Between
+        //Middle Content
         <LinearLayout
             android:orientation="vertical"
             android:id="@+id/activity_main_fragment"
             android:layout_width="match_parent"
-            android:layout_height="320dp">
+            android:layout_height="wrap_content">
 
+            //3 quizzes buttons
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -56,6 +54,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_alignParentStart="true" />
                 <Button
+                    android:onClick="Quiz3"
                     android:text="Quiz3"
                     android:textColor="@color/white"
                     android:layout_width="110dp"
@@ -64,11 +63,11 @@
                     android:layout_alignParentStart="true" />
             </LinearLayout>
 
+            //Submit button
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:orientation="horizontal">
-
                 <Button
                     android:onClick="submit"
                     android:background="@drawable/bt_bg"
@@ -79,10 +78,18 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_alignParentStart="true" />
+
             </LinearLayout>
 
+            <Button
+                android:onClick="Quiz5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="quiz 5"/>
 
         </LinearLayout>
+
+
 
 
         //Main Layout for bottom banner
@@ -90,8 +97,9 @@
             android:id="@+id/bottomBanner"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="@android:color/holo_blue_light"
-            android:orientation="vertical">
+            android:layout_gravity="bottom"
+            android:layout_marginTop="200dp"
+            android:background="@android:color/holo_blue_light">
 
             <TextView
                 android:layout_width="match_parent"
@@ -103,6 +111,6 @@
                 android:textSize="20dp" />
         </RelativeLayout>
 
-    </LinearLayout>
 
-</FrameLayout>
+
+</LinearLayout>

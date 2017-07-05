@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.justin.justin2017summer">
 
+    <provide
+        android:name=".content.Provider"
+        android:authorities="com.example.justin.justin2017summer"
+        android:exported="true" />
+
     <application
         android:name=".JustinApplication"
         android:allowBackup="true"
@@ -35,7 +40,25 @@
         <activity android:name=".NotificationActivity" />
         <activity android:name=".AdvanceListViewActivity" />
         <activity android:name=".AdvanceViewPagerActivity" />
-        <activity android:name=".ScaleTypeActivity"></activity>
+        <activity android:name=".ScaleTypeActivity" />
+        <activity android:name=".ResultActivity1" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".ResultActivity2" />
+        <activity android:name=".RadioGroupActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".HandlerActivity" />
+        <activity android:name=".RunnableHandlerActivity" />
+        <activity android:name=".AnimationActivity" />
+        <activity android:name=".AnimatorActivity" />
+        <activity android:name=".GestureActivity" />
+        <activity android:name=".SharedPreferenceActivity" />
+        <activity android:name=".ServiceActivity" />
+
+        <service android:name=".service.TestService" />
+
+        <activity android:name=".TestAudioActivity" />
+        <activity android:name=".Quiz5Activity"></activity>
     </application>
 
 </manifest>

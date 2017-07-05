@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.justin.justin2017summer.ServiceActivity">
+
+    <TextView
+        android:id="@+id/activity_service_tv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Waiting"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/activity_service_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Start Serice"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/activity_service_stop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Stop"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

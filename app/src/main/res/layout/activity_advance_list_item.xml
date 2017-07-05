@@ -7,7 +7,7 @@
     android:visibility="invisible"
     android:id="@+id/odd"
     android:layout_width="match_parent"
-    android:layout_height="66dp">
+    android:layout_height="50dp">
     <ImageView
         android:layout_width="55dp"
         android:layout_height="55dp"
@@ -22,7 +22,7 @@
         android:visibility="invisible"
         android:id="@+id/even"
         android:layout_width="match_parent"
-        android:layout_height="66dp">
+        android:layout_height="50dp">
         <ImageView
             android:layout_width="55dp"
             android:layout_height="55dp"
@@ -35,7 +35,7 @@
     <TextView
         android:id="@+id/activity_advance_list_item_tv"
         android:layout_width="wrap_content"
-        android:layout_height="66dp"
+        android:layout_height="50dp"
         android:layout_centerVertical="true"
         android:textColor="@android:color/white"
         android:textSize="26sp"

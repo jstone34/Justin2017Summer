@@ -55,7 +55,6 @@ public class BlueFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-        UtilLog.d("Fragment","BlueOnCreate");
     }
 
     @Override
@@ -65,33 +64,5 @@ public class BlueFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_blue, container, false);
     }
 
-    @Override
-    public void onStop() {
-        super.onStop();
-        UtilLog.d("Fragment","BlueOnStop");
-    }
 
-    @Override
-    public void onPause() {
-        super.onPause();
-        UtilLog.d("Fragment","BlueOnPause");
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        UtilLog.d("Fragment","BlueOnResume");
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-        UtilLog.d("Fragment","BlueOnStart");
-    }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        UtilLog.d("Fragment","BlueOnDestroy");
-    }
 }

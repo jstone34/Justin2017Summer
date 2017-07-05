@@ -1,5 +1,6 @@
 package com.example.justin.justin2017summer;
 
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,7 +18,12 @@ public class ActivityC extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_c);
-        Toast.makeText(this, "Activity C",Toast.LENGTH_SHORT).show();
+        shortToast("OnCreate");
+    }
+
+    public void onNewIntent(Intent intent){
+        super.onNewIntent(intent);
+        shortToast("OnNewIntent");
     }
 
     public void ActivityA(View v){
@@ -26,9 +32,7 @@ public class ActivityC extends BaseActivity {
     public void ActivityB(View v){
         goToActivity(ActivityB.class);
     }
-    public void ActivityC(View v){
-        goToActivity(ActivityC.class);
-    }
+    public void ActivityC(View v){  goToActivity(ActivityC.class);}
     public void ActivityD(View v){
         goToActivity(ActivityD.class);
     }
