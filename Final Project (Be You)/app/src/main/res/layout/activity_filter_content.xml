@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.example.justin.finalprojectbeyou.FilterContentActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:text="With Be You, filter the content that is shown on your activity feed. Use the checkbox below to determine what will be shown the next time you go to your feed."/>
+
+    <CheckBox
+        android:id="@+id/activity_check_box_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Music"
+        android:buttonTint="@color/blue"
+        android:textColor="@android:color/darker_gray"/>
+    <CheckBox
+        android:id="@+id/activity_check_box_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Photos"
+        android:buttonTint="@color/blue"
+        android:textColor="@android:color/darker_gray"/>
+    <CheckBox
+        android:id="@+id/activity_check_box_3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Thoughts"
+        android:buttonTint="@color/blue"
+        android:textColor="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/activity_check_box_submit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Submit"
+        android:background="@color/blue"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

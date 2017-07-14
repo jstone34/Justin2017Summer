@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.example.justin.finalprojectbeyou.ProfileActivity">
+
+    <ImageView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:src="@mipmap/header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="500dp"
+               android:src="@mipmap/carsunset"/>
+
+           <ImageView
+               android:paddingTop="20dp"
+               android:layout_width="wrap_content"
+               android:layout_height="500dp"
+               android:src="@mipmap/sunset"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:paddingTop="20dp"
+               android:textColor="@android:color/black"
+               android:textSize="18dp"
+               android:text="Redbone by Childish Gambino is THE best song ever made."/>
+
+           <TextView
+               android:id="@+id/feedRedbone"
+               android:paddingTop="20dp"
+               android:drawableLeft="@mipmap/musicicon"
+               android:drawablePadding="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:textColor="@android:color/darker_gray"
+               android:textStyle="bold"
+               android:textSize="18dp"
+               android:text="Redbone / Childish Gambino"/>
+       </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/activity_profile_feed_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="bottom"
+            android:background="@mipmap/ys_btn" />
+
+        <TextView
+            android:id="@+id/filtercontent"
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:text="Filter Content"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

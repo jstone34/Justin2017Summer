@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.example.justin.finalprojectbeyou.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/activity_animation_tv"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/logo"
+            android:layout_marginTop="125dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:text="Welcome to Be You!"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="The app about expressing yourself and everything that interest you. Share music, photos, and everything in between with friends! No matter what you share or how you share it, just remember to be you"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+      <Button
+          android:id="@+id/activity_main_ys_btn"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:background="@mipmap/ys_btn"
+          android:layout_gravity="bottom"
+          android:layout_alignParentLeft="true" />
+
+      <Button
+          android:id="@+id/activity_main_wn_btn"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:background="@mipmap/wn_btn"
+          android:layout_gravity="bottom"
+          android:layout_alignParentRight="true"/>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

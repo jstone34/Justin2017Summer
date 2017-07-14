@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/white"
+android:orientation="vertical"
+tools:context="com.example.justin.finalprojectbeyou.FeedActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:padding="2dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/avi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Justin Stone"
+            android:gravity="center"
+            android:textColor="@android:color/secondary_text_dark"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="My name is Justin Stone, I write code sometimes. This page is filled with the music and photos that interest me. Enjoy!"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/secondary_text_dark"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/activity_feed_profile_btn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/wn_btn"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+
+
+    </RelativeLayout>
+
+<android.support.design.widget.TabLayout
+    android:id="@+id/activity_advance_view_pager_tablayout"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    app:tabTextColor="@android:color/holo_blue_dark"
+    app:tabSelectedTextColor="@android:color/holo_blue_light"
+    android:background="@android:color/white">
+</android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_advance_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.justin.finalprojectbeyou.fragment.PhotosFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="215dp"
+            android:src="@mipmap/magic"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/braves"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="175dp"
+            android:src="@mipmap/photography"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:src="@mipmap/avi"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:src="@mipmap/carsunset"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="290dp"
+            android:src="@mipmap/grad"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@mipmap/dc"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:src="@mipmap/sunset"/>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
+

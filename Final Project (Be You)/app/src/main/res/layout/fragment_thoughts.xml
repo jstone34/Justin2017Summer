@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.justin.finalprojectbeyou.fragment.PhotosFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:text="Redbone by Childish Gambino is THE best song ever made."/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:text="Some Waffle House would be so clutch right now.."
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:text="I should probably make this app in real life.. Might make some money off it lol"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:text="Who tryna run MyPark in 2k?!"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:text="I NEED A NAP"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:text="I wonder how I can hard code emojis in this app lol"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:text="Checkout that new PlayBoi Carti song I just shared! "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:text="IT'S TACO TUESDAY!!!!!"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:text="I'm tryna hoop after I get off from work though. Who's down?"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:text="I'm running out of thought ideas now... oops"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:text="Everyone should watch The Office"/>
+
+</LinearLayout>
+
+    </ScrollView>
